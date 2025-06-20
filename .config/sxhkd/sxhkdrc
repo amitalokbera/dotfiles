@@ -1,0 +1,8 @@
+hyper + h
+    xdotool sleep 0.100 keyup h key --clearmodifiers Left
+hyper + j
+    xdotool sleep 0.100 keyup j key --clearmodifiers Down
+hyper + k
+    xdotool sleep 0.100 keyup k key --clearmodifiers Up
+hyper + l
+    xdotool sleep 0.100 keyup l key --clearmodifiers Right
