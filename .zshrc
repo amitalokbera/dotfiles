@@ -129,6 +129,7 @@ alias push="git push"
 alias g="lazygit"
 alias c="clear"
 alias ff="fastfetch"
+alias vi="vim"
 
 alias ssh="kitty +kitten ssh"
 
@@ -184,6 +185,9 @@ autoload -U compinit && compinit
 
 zinit cdreplay -q
 
+# Disable bell sound 
+unsetopt beep
+
 # Keybindings
 bindkey -e
 bindkey '^p' history-search-backward
@@ -217,3 +221,7 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 export PATH=$HOME/.local/bin:$PATH
 alias firefox="flatpak run org.mozilla.firefox"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
