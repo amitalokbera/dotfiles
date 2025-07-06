@@ -21,7 +21,7 @@ exec --no-startup-id greenclip daemon>/dev/null
 # start dmenu
 bindsym $mod+q exec --no-startup-id dmenu_run
 
-bindsym $mod+t exec kitty #terminal
+bindsym $mod+t exec wezterm #terminal
 bindsym $mod+f exec /usr/lib/firefox/firefox #browser
 bindsym $mod+c exec code #ide 
 
