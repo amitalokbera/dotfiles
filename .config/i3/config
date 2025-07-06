@@ -41,6 +41,9 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86AudioStop exec --no-startup-id playerctl stop
 
+# Bind color picker
+bindsym $mod+c exec --no-startup-id ~/.config/i3/scripts/xcolor-pick.sh
+
 bindsym $mod+Shift+q kill
 
 bindsym $mod+v exec --no-startup-id "/home/amit/dotfiles/.config/rofi/clipboard/type-4/launcher.sh"
@@ -127,7 +130,7 @@ exec --no-startup-id i3-msg "workspace 8; move workspace to output HDMI-0"
 exec --no-startup-id i3-msg "workspace 9; move workspace to output HDMI-0"
 exec --no-startup-id i3-msg "workspace 10; move workspace to output HDMI-0"
 
-bindsym $mod+Shift+c reload
+# bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
