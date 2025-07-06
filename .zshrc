@@ -132,7 +132,7 @@ alias ff="fastfetch"
 alias vi="vim"
 # Next level of an ls 
 # options :  --no-filesize --no-time --no-permissions 
-alias ls="eza --no-filesize --long --color=always --icons=always --no-user"
+alias ls="eza --long --color=always --icons=always --no-user"
 
 
 export PATH=$PATH:/home/amit/.spicetify
