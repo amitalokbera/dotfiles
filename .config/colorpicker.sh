@@ -1,0 +1,1 @@
+i3/colorpicker.sh

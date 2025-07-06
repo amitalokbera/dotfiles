@@ -42,7 +42,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86AudioStop exec --no-startup-id playerctl stop
 
 # Bind color picker
-bindsym $mod+c exec --no-startup-id ~/.config/i3/scripts/colorpicker.sh
+bindsym $mod+c exec --no-startup-id ~/.config/i3/colorpicker.sh
 
 bindsym $mod+Shift+q kill
 
