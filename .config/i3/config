@@ -23,7 +23,7 @@ bindsym $mod+q exec --no-startup-id dmenu_run
 
 bindsym $mod+t exec wezterm #terminal
 bindsym $mod+f exec /usr/lib/firefox/firefox #browser
-bindsym $mod+c exec code #ide 
+# bindsym $mod+c exec code #ide 
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
