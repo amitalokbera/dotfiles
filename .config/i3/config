@@ -23,7 +23,7 @@ bindsym $mod+q exec --no-startup-id dmenu_run
 
 bindsym $mod+t exec wezterm #terminal
 bindsym $mod+f exec /usr/lib/firefox/firefox #browser
-# bindsym $mod+c exec code #ide 
+bindsym $mod+c exec code #ide 
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -42,7 +42,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86AudioStop exec --no-startup-id playerctl stop
 
 # Bind color picker
-bindsym $mod+c exec --no-startup-id ~/.config/i3/colorpicker.sh
+bindsym $mod+Shift+c exec --no-startup-id ~/.config/i3/colorpicker.sh
 
 bindsym $mod+Shift+q kill
 
