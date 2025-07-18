@@ -133,9 +133,11 @@ alias vi="vim"
 # Next level of an ls 
 # options :  --no-filesize --no-time --no-permissions 
 alias ls="eza --long --color=always --icons=always --no-user"
+alias p="pulsemixer"
 
 
 export PATH=$PATH:/home/amit/.spicetify
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
