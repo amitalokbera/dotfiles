@@ -138,6 +138,14 @@ alias p="pulsemixer"
 
 export PATH=$PATH:/home/amit/.spicetify
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
+export PATH="/opt/flutter/bin:$PATH"
+export PATH="$PATH:/opt/flutter/bin"
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
+
+#Dbeaver GUI Fix
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.5
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
